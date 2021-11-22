@@ -1,4 +1,4 @@
-# Web-Scraping
+## Introduction
 
 Web scraping is an automated method used to extract large amounts of data from websites which are ususally unstructured so web scraping helps collect 
 these unstructured data and store it in a structured form.
