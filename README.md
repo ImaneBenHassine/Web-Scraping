@@ -26,4 +26,5 @@ the user to read the HTML or XML page. The code then, parses the HTML or XML pag
 ## Libraries:
 - __Selenium__: is a web testing library used to automate browser activities.
 - __BeautifulSoup__: is a Python package for parsing HTML and XML documents. It creates parse trees that is helpful to extract the data easily.
+- __Requests__: is a library allows to get a web page by using get() on the URL
 - __Pandas__: is a library used for data manipulation and analysis used to extract the data and store it in the desired format. 
