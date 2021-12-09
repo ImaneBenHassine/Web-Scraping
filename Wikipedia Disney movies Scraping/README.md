@@ -14,3 +14,4 @@ This project is about scraping through a bunch of wikipedia pages on disney movi
 we may not handle all cases but we try to clena as much as possible
 
 ![run pytest](https://user-images.githubusercontent.com/26963240/144080476-703820e2-65da-439e-b6c3-daca4a9b9cbc.png)
+ 
