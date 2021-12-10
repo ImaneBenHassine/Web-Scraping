@@ -27,4 +27,6 @@ we may not handle all cases but we try to clean as much as possible, then run th
  
 keep testing until we full fill all the tests
 
-![run test 1 failed](https://user-images.githubusercontent.com/26963240/145377441-ecc4d0b7-0864-41d5-ab90-5b271ec1ebe9.png)
+![clear tests](https://user-images.githubusercontent.com/26963240/145377825-0d482622-a0c2-41d8-b5d3-7c0480da94ac.png)
+
+Then take all the code and move it to jupyter notebook
