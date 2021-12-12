@@ -12,12 +12,7 @@ This project is about scraping through a bunch of wikipedia pages on disney movi
 
 __Wikipedia Disney movies Scraping.ipynb__, contain the data set creation
 
-__dataset_checkpoints__, where dataset are saved 
-
-__conversion.py__ , contain a fucntion given a money value and return it as integer or float then use this function in an other file __test_money_conversion.py__, which contain tests to see if the job is done for multiple cases when converting monetary value to numeric value.
-
- 
-we are trying to catch pattern so will be using __Regex__ : Regular Expression is used to extract a substring from a string. Almost each value followed by dollar sign so need to capture the number there , it is like key indicator , so we start simple and then build up .
+__conversion.py__ , contain a fucntion given a money value and return it as integer or float then use this function in an other file __test_money_conversion.py__, which contain tests to see if the job is done for multiple cases when converting monetary value to numeric value. In this code we tried to catch pattern so will be using __Regex__ : Regular Expression is used to extract a substring from a string. Almost each value followed by dollar sign so need to capture the number there , it is like key indicator , so we start simple and then build up .
 
 we may not handle all cases but we try to clean as much as possible, then run the function on the tests with the pytest file 
           
