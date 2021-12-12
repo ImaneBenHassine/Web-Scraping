@@ -29,4 +29,12 @@ keep testing until we full fill all the tests
 
 ![clear tests](https://user-images.githubusercontent.com/26963240/145377825-0d482622-a0c2-41d8-b5d3-7c0480da94ac.png)
 
-Then take all the code and move it to jupyter notebook
+Then take all the code of the cleaning function and move it to jupyter notebook, then converting monetary variable into floats and converting dates into datetime objects using strptime from datetime library. 
+
+At this point it was not possible to save the data cleaned into JSON file due to th object of type datetime is not JSON serializable so we used __Pickle__ to save and load data by creating two functions.
+
+__Pickle__ module implements binary protocols for serializing and de-serializing a Python object structure unlike JSON which is a text serialization format (it outputs unicode text, although most of the time it is then encoded to utf-8). Since Pickle module is not secure, it will not be our final format to save the data in it .
+
+Next, we added rattings and IMDB score using API such us OMDb API and get API Key for free from this website http://www.omdbapi.com/?apikey=[yourkey]&.
+
+Final steps will be saving the final version of data into json and csv files, and the data will be ready for analysis which will be the next step for this project.
